@@ -46,7 +46,7 @@ let myJson = `
 	"items": [{
 			"position": "1",
 			"title": "Reports",
-			"subtitle": "for product",
+			"subtitle": "for my product",
 			"actions": [{
 				"handler": "list",
 				"url": "https://johnpier.s3.us-west-2.amazonaws.com/json/app/reports.json"
