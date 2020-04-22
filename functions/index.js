@@ -10,3 +10,9 @@ exports.helloWorld = (req, res) => {
   res.status(200).send(message);
   console.log ('all done');
 };
+
+exports.getPodcast = (req, res) => {
+  let message = 'This will eventually be json for use in The Church App';
+  res.status(200).send(message);
+  console.log ('getPodcasts called...');
+};
